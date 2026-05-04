@@ -2,6 +2,33 @@
 Changelog for package urdfdom_headers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+3.0.0 (2026-04-20)
+-----------
+* Update lower, upper, effort, and velocity default joint limits (`#95 <https://github.com/ros/urdfdom_headers/issues/95>`_)
+* Clean up declaration of ModelInterface's SharedPtrs (`#99 <https://github.com/ros/urdfdom_headers/issues/99>`_)
+* Extend ``JointLimits`` class to include acceleration, deceleration and jerk limits (`#83 <https://github.com/ros/urdfdom_headers/issues/83>`_)
+
+* Contributors: Aarav Gupta, Alejandro Hernández Cordero, Robert Haschke, Sai Kishor Kothakota
+
+
+2.1.2 (2026-04-18)
+-----------
+* Revert "Extend JointLimits class to include acceleration, deceleration and jerk limits (`#83 <https://github.com/ros/urdfdom_headers/issues/83>`_)"
+  This was a breaking change that will be released in 3.0.0
+* Contributors: Steve Peters
+
+2.1.1 (2026-04-15)
+------------------
+
+* Clean up declaration of ModelInterface's SharedPtrs (`#99 <https://github.com/ros/urdfdom_headers/issues/99>`_)
+* Revert cleanup of ModelInterface's SharedPtrs (`#33 <https://github.com/ros/urdfdom_headers/issues/33>`_)
+* Revert fix for assumption that CMAKE_INSTALL_*DIR paths are relative (`#90 <https://github.com/ros/urdfdom_headers/issues/90>`_) (`#97 <https://github.com/ros/urdfdom_headers/issues/97>`_)
+* Clean up declaration of ModelInterface's SharedPtrs (`#33 <https://github.com/ros/urdfdom_headers/issues/33>`_)
+* Fix assumption that CMAKE_INSTALL_*DIR paths are relative (`#90 <https://github.com/ros/urdfdom_headers/issues/90>`_)
+* Extend ``JointLimits`` class to include acceleration, deceleration and jerk limits (`#83 <https://github.com/ros/urdfdom_headers/issues/83>`_)
+
+* Contributors: Alejandro Hernández Cordero, Michal Sojka, Robert Haschke, Sai Kishor Kothakota
+
 2.1.0 (2026-01-31)
 ------------------
 * Add support for capsule geometry type (`#94 <https://github.com/ros/urdfdom_headers/issues/94>`_)
